@@ -8,9 +8,15 @@
       <a href="./index.html">Home</a><br>
       <a href="./contact.html">Contact Me</a>
     </div>
-    <div id="form">
+    <form action="submission.html" method="POST">
       <h1>Please Email Me</h1>
-      <p>Form goes here</p>
+      <section class="subjectline">
+        <label for="subject">Subject Line: </label>
+        <input type="text" name="subject" id="subject">
+      </section>
+      <section class="emailbody">
+        <textarea name="email" id="email" rows="10" cols="50" placeholder="Type Message..."></textarea>
+      </section>
     </div>
     <div id="links">
       <h3>Check out my links</h3>
