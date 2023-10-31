@@ -10,17 +10,18 @@
       <a href="./project.html">Projects</a><br>
       <a href="./contact.html">Contact Me</a>
     </div>
-    <form action="submission.html" method="POST">
+    <form action="email.html" method="POST">
       <h1>Please Email Me</h1>
       <section class="subjectline">
         <label for="subject">Subject Line: </label>
-        <input type="text" name="subject" id="subject">
+        <input type="text" name="subject" id="subject" required>
       </section>
       <br>
       <section class="emailbody">
-        <textarea name="email" id="email" rows="10" cols="50" placeholder="Type Message..."></textarea>
+        <textarea name="email" id="email" rows="10" cols="50" placeholder="Type Message..." required></textarea>
       </section>
-    </div>
+      <input type="submit" value="Email">
+    </form>
     <div id="links">
       <h3>Check out my links</h3>
       <a href="https://github.com/Ryan-at-git" target="_blank">Github</a>
