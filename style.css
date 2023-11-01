@@ -1,5 +1,48 @@
-body {
-  background: #EEE;
-  margin: 0;
+/* Overwrite browser defaults */
+* {
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /*border: 1px solid red;  element outline for placement visualization */
+}
+
+html, body {
+  background: linear-gradient(45deg, rgb(124, 11, 158), rgb(0, 0, 0));
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: aliceblue;
+  
+}
+
+main {
+  /*background-image: url("/Stuff/Pictures/Gifs/hug.gif");*/
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family:'Tahoma';
+}
+
+a {
+  color: rgb(169, 202, 230);
+}
+
+a:hover {
+  color: orangered;
+}
+
+.project-screencap {
+  width: 400px;
+  height: 240px;
 }
