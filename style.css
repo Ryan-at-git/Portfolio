@@ -7,23 +7,21 @@
 }
 
 html, body {
-  background: linear-gradient(45deg, rgb(124, 11, 158), rgb(0, 0, 0));
+  background: rgb(52, 25, 73);
   height: 100%;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: aliceblue;
-  
+  color: rgb(11, 11, 11);
+  position: relative;
 }
 
 main {
-  /*background-image: url("/Stuff/Pictures/Gifs/hug.gif");*/
+  background-image: url("temp-bg.png");
   background-size: cover;
   background-position: center;
   height: 800px;
-  width: 800px;
-  text-align: center;
   margin: 0 auto;
 }
 .uppercase {
@@ -32,6 +30,10 @@ main {
 
 h1 {
   font-family:'Tahoma';
+}
+
+p {
+  font-size: 18px;
 }
 
 a {
@@ -45,4 +47,47 @@ a:hover {
 .project-screencap {
   width: 400px;
   height: 240px;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  
+}
+nav ul li{
+  float: left;
+  width: 150px;
+  height: 25px;
+  text-align: center;
+  list-style-type: none;
+  border-right: 2px solid black;
+  margin: 10px 0 0 0;
+}
+
+.content {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+
+.content * {
+  margin-top: 10px;
+}
+
+.content h1 {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+
+
+footer {
+  height: 50px;
+}
+
+footer p {
+  color: aliceblue;
+  margin: 10px 10px 0 auto;
+  text-align: center;
+  width: 110px;
+  font-size: 14px;
 }
