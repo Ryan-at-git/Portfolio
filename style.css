@@ -14,7 +14,6 @@ html, body {
 body {
   font-family: 'Roboto', sans-serif;
   color: rgb(11, 11, 11);
-  position: relative;
 }
 
 main {
@@ -23,6 +22,8 @@ main {
   background-position: center;
   height: 800px;
   margin: 0 auto;
+  position: relative;
+  top: 50px;
 }
 .uppercase {
   text-transform: uppercase;
@@ -51,7 +52,9 @@ a:hover {
 nav {
   height: 50px;
   width: 100%;
-  
+  background: rgb(52, 25, 73);
+  position: fixed;
+  z-index: 1;
 }
 nav ul li{
   float: left;
@@ -81,13 +84,22 @@ nav ul li{
 
 
 footer {
-  height: 50px;
+  position: relative;
+  top: 50px;
 }
 
 footer p {
   color: aliceblue;
   margin: 10px 10px 0 auto;
   text-align: center;
+  float: right;
   width: 110px;
   font-size: 14px;
+  display: inline;
+}
+
+footer a {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
 }
