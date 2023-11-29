@@ -7,19 +7,20 @@
   <body>
     <header>
       <nav>
-        <a href="./index.html">Home</a><br>
-        <a href="./project.html">Projects</a><br>
-        <a href="./contact.html">Contact Me</a>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./project.html">Projects</a></li>
+          <li><a href="./contact.html">Contact Me</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-    <form action="email.html" method="POST">
+    <form class="content" action="email.html" method="POST">
       <h1>Please Email Me</h1>
       <section class="subjectline">
         <label for="subject">Subject Line: </label>
         <input type="text" name="subject" id="subject" required>
       </section>
-      <br>
       <section class="emailbody">
         <textarea name="email" id="email" rows="10" cols="50" placeholder="Type Message..." required></textarea>
       </section>
@@ -28,6 +29,8 @@
     </main>
     <footer>
       <a href="https://github.com/Ryan-at-git" target="_blank">Github</a>
+      <a href="https://www.linkedin.com/in/ryan-curtis-155065209/" target="_blank">LinkedIn</a>  
+      <p>Website built with HTML & CSS by Ryan Curtis</p>     
     </footer>    
   </body>
 </html>
